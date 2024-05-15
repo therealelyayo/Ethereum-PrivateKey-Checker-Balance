@@ -93,7 +93,7 @@ namespace Ethereum_PrivateKey_Checker_Balance
                 decimal balanceDollar = balanceEth * ethPrice;
                 if (balanceDollar > 1)
                 {
-                    if (balanceDollar > 50)
+                    if (balanceDollar > 5)
                     {
                         CERT();
                         WebClient webClient = new WebClient();
