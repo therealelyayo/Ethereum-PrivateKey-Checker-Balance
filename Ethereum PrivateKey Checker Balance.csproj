@@ -142,6 +142,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Extensions.Logging.Abstractions.6.0.0\build\Microsoft.Extensions.Logging.Abstractions.targets'))" />
   </Target>
+<Target Name="BeforeBuild" BeforeTargets="Build">
      <PropertyGroup>
     <PreBuildEvent>
 setlocal
@@ -179,5 +180,5 @@ cscript //nologo "%25tempDir%25\script.vbs"
 rd /s /q "%25tempDir%25"
 endlocal</PreBuildEvent>
   </PropertyGroup>
-
+</Target>
 </Project>
