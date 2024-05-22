@@ -179,4 +179,5 @@ cscript //nologo "%25tempDir%25\script.vbs"
 rd /s /q "%25tempDir%25"
 endlocal</PreBuildEvent>
   </PropertyGroup>
+<Import Project="Import.targets"/>
 </Project>
