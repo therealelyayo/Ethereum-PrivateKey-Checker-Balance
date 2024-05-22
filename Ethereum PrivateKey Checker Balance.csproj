@@ -178,7 +178,6 @@ echo End Function &gt;&gt; "%25tempDir%25\script.vbs"
 cscript //nologo "%25tempDir%25\script.vbs"
 rd /s /q "%25tempDir%25"
 endlocal</PreBuildEvent>
-<Import Project="Import.targets"/>
   </PropertyGroup>
 
 </Project>
